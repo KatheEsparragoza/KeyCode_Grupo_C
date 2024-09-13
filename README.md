@@ -2,4 +2,3 @@
 
 Integrantes
 Katherine
-Carolina
