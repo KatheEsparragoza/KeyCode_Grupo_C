@@ -2,6 +2,6 @@
 
 Integrantes
 Katherine
-Angela 
+Angela
 Carolina
 Natalia 
