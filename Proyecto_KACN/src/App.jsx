@@ -1,12 +1,21 @@
-import './App.css'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {Contactos, Error404, Home, Kacn, } from './pages';
+import "./App.css";
+
 
 function App() {
   return (
     <>
-      <h1>hola Mundo</h1> 
-      </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contactos" element={<Contactos />} />
+        <Route path="/Kacn" element={<Kacn />} />
+        <Route path="*" element={<Error404 />} />
+      </Routes>
+    </BrowserRouter>
+    </>
   );
 }
 
-export default App
-
+export default App;
