@@ -1,0 +1,11 @@
+
+body {
+    font-family: "Arial", sans-serif;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20200701/ourmid/pngtree-pink-cute-beauty-product-advertising-background-image_345472.jpg);
+    color: rgb(154, 112, 231);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
