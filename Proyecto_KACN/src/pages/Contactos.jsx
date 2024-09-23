@@ -2,14 +2,14 @@ import { Link, Outlet } from "react-router-dom";
 
 export const Contactos = () => {
   return (
-    <div>
+    <button class= "bg-red-100" >
       Contactos
-      <nav className="menu">
+      <nav className="bg-red-50">
         <Link to={"/contactos"}>Información de contactos</Link>  
       </nav>
       {}
       <Outlet />
-    </div>
+    </button>
   );
 };
 

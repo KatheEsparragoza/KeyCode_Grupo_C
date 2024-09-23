@@ -2,9 +2,9 @@ import React from 'react';
 
 export const Kacn = () => {
   return (
-    <div>
+    <button class= "bg-red-100" >
       KACN
-    </div>
+    </button>
   );
 };
 

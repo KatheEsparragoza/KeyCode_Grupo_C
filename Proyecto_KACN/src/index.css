@@ -1,11 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-body {
-    font-family: "Arial", sans-serif;
-    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20200701/ourmid/pngtree-pink-cute-beauty-product-advertising-background-image_345472.jpg);
-    color: rgb(154, 112, 231);
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
+body{
+    background-image: url(https://img.freepik.com/foto-gratis/elementos-spa-copy-space_23-2147684496.jpg?t=st=1727134572~exp=1727138172~hmac=4924b266b4f2cafb823a6d89409aac1d5ab67b5fbc5f49d083cb7bba670ca1fb&w=1380);
+    background-size: cover;
+    background-position: 100;
+   text-align: center;
+   text-decoration-line: overline;
+   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+   font-size: 2.25rem; /* 36px */
+   line-height: 2.5rem; /* 40px */
+   color: rgb(251 113 133);
+}
+.menu{
+    --tw-shadow-color: #d1b9b9;
+}

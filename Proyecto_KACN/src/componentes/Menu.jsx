@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 const Menu = () => {
   return (
     
-    <nav className="menu">        
+    <nav className="menu">      
       <NavLink
         className={({ isActive }) => (isActive ? "active-link" : null)}
         to={"/"}
@@ -17,8 +17,9 @@ const Menu = () => {
         Contactos
       </NavLink>
       <NavLink to="/Kacn">    
-       <button>Ir a Kacn</button>
+       <button classname="bg-orange-200">Ir a Kacn</button>
       </NavLink>
+
     </nav>
   );
 };

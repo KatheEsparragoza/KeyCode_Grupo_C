@@ -1,9 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import {Contactos, Error404, Home, Kacn, } from './pages';
+import { Contactos, Error404, Home, Kacn, } from './pages';
 import "./App.css";
 import Menu from "./componentes/Menu";
-
-
 
 function App() {
   return (
