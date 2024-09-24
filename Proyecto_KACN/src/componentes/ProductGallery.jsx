@@ -1,4 +1,5 @@
 import React from 'react';
+import { Cabello } from "../images/cabello_home.jpg";
 
 // Datos de productos 
 const products = [
@@ -30,7 +31,7 @@ export const ProductGallery = () => {
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-4">
             {products.map((product) => (
         <div key={product.id} className="border p-4 rounded-lg shadow-lg bg-white">
-          <img src={product.imageUrl} alt={product.name} className="w-full h-48 object-cover rounded-lg mb-4" />
+          <img src={ Cabello} alt={product.name} className="w-full h-48 object-cover rounded-lg mb-4" />
           <h3 className="text-xl font-semibold mb-2">{product.name}</h3>
           <p className="text-gray-600 mb-4">{product.description}</p>
           <p className="font-bold text-lg">{product.price}</p>
