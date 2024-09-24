@@ -34,9 +34,9 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center"> {/* Contenedor centralizado */}
         {/* Menú de navegación alineado a la izquierda */}
         <ul className="flex space-x-8"> {/* Lista horizontal con espacios entre elementos */}
-          <NavItem to="/home">Inicio</NavItem>
+          <NavItem to="/home">Home</NavItem>
           <NavItem to="/contact">Contactos</NavItem>
-          <NavItem to="/kACN">KACN</NavItem>
+          <NavItem to="/KACN">KACN</NavItem>
           {/* Sección de Servicios con submenú */}
           <li ref={dropdownRef} className="relative"> {/* Referencia para el menú desplegable */}
             <button
