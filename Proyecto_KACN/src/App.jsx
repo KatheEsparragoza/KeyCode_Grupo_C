@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Contactos, Error404, Home, Kacn, } from './pages';
+import { Contactos, Error404, Home, Kacn,Accesorios } from './pages';
 import "./App.css";
 import Menu from "./componentes/Menu";
 
@@ -13,6 +13,7 @@ function App() {
         <Route path="/Contactos" element={<Contactos />} />
         <Route path="/Kacn" element={<Kacn />} />
         <Route path="*" element={<Error404 />} />
+        <Route path="/Accesorios" element={<Accesorios />} />
       </Routes>
     </BrowserRouter>
     </>

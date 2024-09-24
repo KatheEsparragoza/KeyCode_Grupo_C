@@ -19,7 +19,12 @@ const Menu = () => {
       <NavLink to="/Kacn">    
        <button class= "bg-red-100">Ir a Kacn</button>
       </NavLink>
-
+      <NavLink
+        className={({ isActive }) => (isActive ? "active-link" : null)}
+        to={"/Accesorios"}
+      >
+        Accesorios
+      </NavLink>
     </nav>
   );
 };
