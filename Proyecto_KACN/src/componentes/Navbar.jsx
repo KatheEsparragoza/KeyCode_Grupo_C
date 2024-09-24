@@ -35,19 +35,18 @@ const Navbar = () => {
         {/* Menú de navegación alineado a la izquierda */}
         <ul className="flex space-x-8"> {/* Lista horizontal con espacios entre elementos */}
           <NavItem to="/home">Inicio</NavItem>
-          <NavItem to="/contact">Contacto</NavItem>
-          <NavItem to="/categories">Categorías</NavItem>
-          <NavItem to="/all-products">Todos los Productos</NavItem>
+          <NavItem to="/contact">Contactos</NavItem>
+          <NavItem to="/kACN">KACN</NavItem>
           {/* Sección de Servicios con submenú */}
           <li ref={dropdownRef} className="relative"> {/* Referencia para el menú desplegable */}
             <button
               onClick={toggleDropdown} // Alterna el estado del menú al hacer clic
               className="text-customBrownDark hover:text-customPink focus:outline-none"
             >
-              Servicios
+              Categorias
             </button>
             {isOpen && ( // Si isOpen es verdadero, muestra el submenú
-              <ul className="absolute left-0 mt-2 w-48 bg-customYellow rounded-lg shadow-lg z-10">
+              <ul className="absolute left-0 mt-2 w-48 bg-red-100 rounded-lg shadow-lg z-10">
                 <SubNavItem to="/services/shampoos">Champús</SubNavItem>
                 <SubNavItem to="/services/conditioner">Acondicionador</SubNavItem>
                 <SubNavItem to="/services/treatments">Tratamientos</SubNavItem>
@@ -57,7 +56,7 @@ const Navbar = () => {
           </li>
         </ul>
         {/* Título de la tienda alineado a la derecha */}
-        <h1 className="text-customBrownDark text-xl font-bold">My Product Store</h1>
+        <h1 className="text-customBrownDark text-xl font-bold">KACN</h1>
       </div>
     </nav>
   );

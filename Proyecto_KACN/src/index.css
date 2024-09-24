@@ -2,3 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    background-image: url(https://img.freepik.com/foto-gratis/vista-superior-concepto-bano-espacio-copia_23-2148459886.jpg?t=st=1727140001~exp=1727143601~hmac=feb90165b3fba6058edc8dbb931dc38d492d49764c7a477c1bfdaf6ef5512d51&w=1380);
+    background-size: cover;
+}
