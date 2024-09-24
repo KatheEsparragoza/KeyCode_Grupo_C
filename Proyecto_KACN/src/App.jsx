@@ -22,6 +22,8 @@ function App() {
         <Route path="/home" element={<Home />} />  {/* Ruta para la página de inicio */}
         <Route path="/KACN" element={<Kacn />} />  {/* Ruta para la página KACN */}
           <Route path="/services/shampoos" element={<ProductGallery />} /> {/* Ruta para la galería de Champús */}
+          <Route path="/services/conditioner" element={<Rtacondiacionador />} />  
+
         </Routes>
     </BrowserRouter>
     </>
