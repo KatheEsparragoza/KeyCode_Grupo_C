@@ -1,27 +1,27 @@
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
-const Menu = () => {
-  return (
+// const Menu = () => {
+//   return (
     
-    <nav className="menu">      
-      <NavLink
-        className={({ isActive }) => (isActive ? "active-link" : null)}
-        to={"/"}
-      >
-        Home
-      </NavLink>
-      <NavLink
-        className={({ isActive }) => (isActive ? "active-link" : null)}
-        to={"/contactos"}
-      >
-        Contactos
-      </NavLink>
-      <NavLink to="/Kacn">    
-       <button class= "bg-red-100">Ir a Kacn</button>
-      </NavLink>
+//     <nav className="menu">      
+//       <NavLink
+//         className={({ isActive }) => (isActive ? "active-link" : null)}
+//         to={"/"}
+//       >
+//         Home
+//       </NavLink>
+//       <NavLink
+//         className={({ isActive }) => (isActive ? "active-link" : null)}
+//         to={"/contactos"}
+//       >
+//         Contactos
+//       </NavLink>
+//       <NavLink to="/Kacn">    
+//        <button class= "bg-red-100">Ir a Kacn</button>
+//       </NavLink>
 
-    </nav>
-  );
-};
+//     </nav>
+//   );
+// };
 
-export default Menu;
+// export default Menu;
