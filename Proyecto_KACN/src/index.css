@@ -6,13 +6,16 @@ body{
     background-image: url(https://img.freepik.com/foto-gratis/elementos-spa-copy-space_23-2147684496.jpg?t=st=1727134572~exp=1727138172~hmac=4924b266b4f2cafb823a6d89409aac1d5ab67b5fbc5f49d083cb7bba670ca1fb&w=1380);
     background-size: cover;
     background-position: 100;
-   text-align: center;
-   text-decoration-line: overline;
-   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-   font-size: 2.25rem; /* 36px */
-   line-height: 2.5rem; /* 40px */
-   color: rgb(251 113 133);
+    text-align: center;
+    text-decoration-line: overline;
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 2.25rem; /* 36px */
+    line-height: 2.5rem; /* 40px */
+    color: rgb(251 113 133);
 }
 .menu{
     --tw-shadow-color: #d1b9b9;
+}
+.KACN{
+    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }

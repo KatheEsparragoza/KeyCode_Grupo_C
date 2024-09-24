@@ -17,7 +17,7 @@ const Menu = () => {
         Contactos
       </NavLink>
       <NavLink to="/Kacn">    
-       <button classname="bg-orange-200">Ir a Kacn</button>
+       <button class= "bg-red-100">Ir a Kacn</button>
       </NavLink>
 
     </nav>
