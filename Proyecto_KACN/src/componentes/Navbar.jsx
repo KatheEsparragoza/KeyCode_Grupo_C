@@ -30,7 +30,7 @@ const Navbar = () => {
   const toggleDropdown = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="bg-customGray p-4"> {/* Estilo de fondo y padding */}
+    <nav className="bg-transparent p-4"> {/* Estilo de fondo y padding */}
       <div className="container mx-auto flex justify-between items-center"> {/* Contenedor centralizado */}
         {/* Menú de navegación alineado a la izquierda */}
         <ul className="flex space-x-8"> {/* Lista horizontal con espacios entre elementos */}
@@ -57,7 +57,7 @@ const Navbar = () => {
           </li>
         </ul>
         {/* Título de la tienda alineado a la derecha */}
-        <h1 className="text-customBrownDark text-xl font-bold">My Product Store</h1>
+        <h1 className="text-customBrownDark text-xl font-bold">KACN</h1>
       </div>
     </nav>
   );
