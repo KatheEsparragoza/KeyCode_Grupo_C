@@ -1,5 +1,5 @@
 import React from 'react';
-import { Cabello } from "../images/cabello_home.jpg";
+
 
 // Datos de productos 
 const products = [
