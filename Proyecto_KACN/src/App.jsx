@@ -17,11 +17,6 @@ function App() {
     <BrowserRouter>
     <Navbar /> 
       <Routes>
-        {/* <Route path="/" element={<Home />} />
-        <Route path="/Contactos" element={<Contactos />} />
-        <Route path="/Kacn" element={<Kacn />} />
-        <Route path="*" element={<Error404 />} /> 
-        <Route path="/" element={<Navbar />} />  */}
         <Route path="/home" element={<Home />} />  {/* Ruta para la página de inicio */}
         <Route path="/KACN" element={<Kacn />} />  {/* Ruta para la página KACN */}
           <Route path="/services/shampoos" element={<ProductGallery />} /> {/* Ruta para la galería de Champús */}
