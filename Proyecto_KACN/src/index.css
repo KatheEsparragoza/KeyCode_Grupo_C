@@ -5,17 +5,4 @@
 body{
     background-image: url(https://img.freepik.com/foto-gratis/vista-superior-concepto-bano-espacio-copia_23-2148459886.jpg?t=st=1727140001~exp=1727143601~hmac=feb90165b3fba6058edc8dbb931dc38d492d49764c7a477c1bfdaf6ef5512d51&w=1380);
     background-size: cover;
-    background-position: 100;
-    text-align: center;
-    text-decoration-line: overline;
-    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-    font-size: 2.25rem; /* 36px */
-    line-height: 2.5rem; /* 40px */
-    color: rgb(251 113 133);
-}
-.menu{
-    --tw-shadow-color: #d1b9b9;
-}
-.KACN{
-    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }

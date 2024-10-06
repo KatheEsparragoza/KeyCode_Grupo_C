@@ -1,11 +1,13 @@
 import React from 'react';
+import Navbar from '../componentes/Navbar'
 
 export const Home = () => {
   return (
-    <div class="bg-red-50">
-      Home
-    </div>
+    
+    <Navbar/>
+    
   );
 };
 
 
+export default Home;
