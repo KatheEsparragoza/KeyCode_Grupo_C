@@ -12,10 +12,10 @@ const CarritoCompras = () => {
     },
     {
       id: 2,
-      name: 'Acondicionador Fortalecedor',
+      name: 'Champú Fortalecedor',
       description: 'Fortalece el cabello desde la raíz.',
-      price: 25000,
-      imageUrl: 'https://exitocol.vtexassets.com/arquivos/ids/24084836/Acondicionador-Detox-Toronja-Y-Menta-HERBAL-ESSENCES-400-ml-3469970_a.jpg?v=638588719824730000',
+      price: 40000,
+      imageUrl: 'https://alcortesoap.com/6857-large_default/champu-fortalecedor-anti-caida-del-cabello.jpg',
     },
   ]);
 
