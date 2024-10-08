@@ -3,7 +3,7 @@ import React from 'react';
 const accesoriosdecabello = [
     {
         id: 1,
-        name: 'Cepillo para desenredar',
+        name: 'Cepillo para Desenredar',
         description: 'Funcional para despues del baño',
         price: '$40.000',
         imageUrl: 'https://img.freepik.com/fotos-premium/cepillo-peinar-dentro-canasta-bano-servilleta-blanca-vista-cerrada_178728-319.jpg?w=1380', 
@@ -17,7 +17,7 @@ const accesoriosdecabello = [
       },
       {
         id: 3,
-        name: 'Gorro Satin para dormir',
+        name: 'Gorro Satin para Dormir',
         description: 'Previene que el cabello se enrede',
         price: '$20.000',
         imageUrl: 'https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaCO/124062776_01/w=800,h=800,fit=pad',
