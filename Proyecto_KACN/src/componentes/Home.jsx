@@ -13,7 +13,7 @@ const Home = () => {
 
       {/* Imagen */}
       <img 
-        src="images/" 
+        src="https://cdn.aarp.net/content/dam/aarp/entertainment/beauty-and-style/2020/04/1140-hair-products-on-table-esp.jpg" 
         alt="Cuidado del cabello" 
         className="w-64 mt-8" 
       />
