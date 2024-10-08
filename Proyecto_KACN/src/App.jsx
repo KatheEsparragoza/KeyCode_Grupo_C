@@ -10,6 +10,7 @@ import  CarritoCompras from "./componentes/CartShop";
 import   Politicas from "./componentes/Politicas";
 import Footer from "./componentes/Footer";
 import PaginaChampus from "./componentes/Champus";
+import Contact from "./componentes/Contact";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/services/conditioner" element={<Rtacondiacionador />} />  
           <Route path="/CartShop" element={<CarritoCompras />} /> {/* Ruta para la galería de Champús */}
           <Route path="/Politicas" element={< Politicas />} />  
+          <Route path="/contact" element={<Contact />} />  {}
           
         </Routes>
     </BrowserRouter>
