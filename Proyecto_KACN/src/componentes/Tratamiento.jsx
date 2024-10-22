@@ -58,7 +58,7 @@ export const PaginaTratamientos = () => {
     <div className="min-h-screen p-8 bg-gradient-to-r">
       <div className="max-w-6xl mx-auto"> {/* Adjusted maximum width for better fit */}
         <div className="bg-gradient-to-r from-pink-400 to-pink-600 p-4 rounded-lg mb-8">
-          <h1 className="text-4xl font-bold text-center text-pink-900">
+          <h1 className="text-4xl font-bold text-center text-pink-800">
             Catálogo de Tratamientos Capilares
           </h1>
         </div>
